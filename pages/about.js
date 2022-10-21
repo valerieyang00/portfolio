@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div>
             <h1 className={styles.title}>About Me</h1>
-            <p> Hi I'm Valerie. I'm a full-stack software engineer</p>
+            <p> Hi I am Valerie. I am a full-stack software engineer</p>
 
             {/* load an image locally */}
             <Image 
