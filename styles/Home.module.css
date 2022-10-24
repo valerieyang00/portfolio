@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: 'Edu SA Beginner', cursive;
 }
 
 .title,
@@ -106,6 +107,25 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  font-family: 'Meddon', cursive;
+  color: hotpink
+}
+
+.vlogo {
+  font-size: 100px;
+  color: hotpink;
+  font-family: 'Meddon', cursive;
+}
+
+.name {
+  font-family: 'Meddon', cursive;
+  font-size: 2.5rem
+}
+
+.job {
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 2rem;
+  margin-top: -50px;
 }
 
 @media (max-width: 600px) {

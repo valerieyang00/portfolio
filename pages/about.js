@@ -24,3 +24,7 @@ export default function About() {
         </div>
     )
 } 
+
+var a = [ 'dog', 'cat', 'hen']
+a[100] = 'fox'
+console.log(a.length)
