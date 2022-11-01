@@ -18,58 +18,12 @@ export default function Home() {
 
       </Head>
 
-      <main className={styles.main} id="contact">
-        <h1 className={styles.name}><span id={styles.vlogo}>V</span>Valerie Yang</h1>
+      <main className={styles.main} id="homepage">
+        <h1 className={styles.name}><p id={styles.vlogo} style={{fontSize:"150px", textAlign:"center"}}>V</p>Valerie Yang</h1>
         <h1 className={styles.job}>
           Software Engineer
         </h1>
-        <div className={styles.grid}>
-          <a href="https://github.com/valerieyang00" target="_blank" rel="noopener noreferrer" className={styles.card}>
-            <h2>Github</h2>
-            <Image 
-                src='/github.png'
-                alt='github link'
-                width={200}
-                height={200}
-            />
-          </a>
-
-          <a href="https://linkedin.com/in/valeriey" target="_blank" rel="noopener noreferrer" className={styles.card}>
-            <h2>LinkedIn</h2>
-            <Image 
-                src='/linkedin.png'
-                alt='linkedin link'
-                width={200}
-                height={200}
-            />
-          </a>
-
-          <a
-            href="mailto:valerieyang00@gmail.com"
-            className={styles.card}
-          >
-            <h2>Email</h2>
-            <Image 
-                src='/email.png'
-                alt='email link'
-                width={200}
-                height={200}
-            />
-          </a>
-
-          <a
-            href="https://drive.google.com/file/d/1gb1nHgQNS0jSGTHBx8JAFGkjplmVWYEM/view?usp=sharing" target="_blank" rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Resume</h2>
-            <Image 
-                src='/resume2.png'
-                alt='resume link'
-                width={200}
-                height={200}
-            />
-          </a>
-        </div>
+        
       </main>
       <main className={styles.main} id="about">
         <h1 className={styles.title}>
@@ -144,6 +98,59 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
+          </a>
+        </div>
+      </main>
+
+      <main className={styles.main} id="contact">
+        <h1 className={styles.job}>
+          Contact Me:
+        </h1>
+        <div className={styles.grid}>
+          <a href="https://github.com/valerieyang00" target="_blank" rel="noopener noreferrer" className={styles.card}>
+            <h2>Github</h2>
+            <Image 
+                src='/github.png'
+                alt='github link'
+                width={200}
+                height={200}
+            />
+          </a>
+
+          <a href="https://linkedin.com/in/valeriey" target="_blank" rel="noopener noreferrer" className={styles.card}>
+            <h2>LinkedIn</h2>
+            <Image 
+                src='/linkedin.png'
+                alt='linkedin link'
+                width={200}
+                height={200}
+            />
+          </a>
+
+          <a
+            href="mailto:valerieyang00@gmail.com"
+            className={styles.card}
+          >
+            <h2>Email</h2>
+            <Image 
+                src='/email.png'
+                alt='email link'
+                width={200}
+                height={200}
+            />
+          </a>
+
+          <a
+            href="https://drive.google.com/file/d/1gb1nHgQNS0jSGTHBx8JAFGkjplmVWYEM/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            className={styles.card}
+          >
+            <h2>Resume</h2>
+            <Image 
+                src='/resume2.png'
+                alt='resume link'
+                width={200}
+                height={200}
+            />
           </a>
         </div>
       </main>

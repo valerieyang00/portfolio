@@ -43,7 +43,6 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  font-family: 'Edu SA Beginner', cursive;
 }
 
 .title,
@@ -71,7 +70,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .card {
@@ -79,7 +78,7 @@
   padding: 1.5rem;
   text-align: left;
   color: #b9b7b8;
-  background-color: rgb(71 85 105);
+  /* background-color: rgb(71, 85, 105, 0.8); */
   text-decoration: none;
   border: 2px solid #eaeaea;
   border-radius: 10px;
@@ -96,13 +95,13 @@
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .logo {
@@ -129,9 +128,9 @@
   font-size: 1rem;
 }
 .name {
-  font-family: 'Meddon', cursive;
-  color: #9e9594;
-  font-size: 2.5rem
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color:#5e6671;
+  font-size: 3rem
 }
 
 #navItems {
@@ -143,9 +142,10 @@
 
 .job {
   font-family: 'Saira Semi Condensed', sans-serif;
-  color: #5e6671;
+  color:#9e9594;
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 600px) {
