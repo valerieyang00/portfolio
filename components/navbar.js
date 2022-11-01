@@ -9,10 +9,10 @@ export default function Navbar() {
             <div className="mt-5 ml-10">
             <Link href='#contact'><h1 className={styles.nameNav}><span id={styles.vlogoNav}>V</span>Valerie Yang</h1></Link>
             </div>
-            <div>
-            <Link href='#contact'>Contact</Link>{' | '}
+            <div id={styles.navItems}>
             <Link href='#about'>About</Link>{' | '}
-            <Link href='#works'>Works</Link>
+            <Link href='#works'>Works</Link>{' | '}
+            <Link href='#contact'>Contact</Link>{'  '}
             </div>
         </nav>
     )

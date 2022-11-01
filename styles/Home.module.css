@@ -78,9 +78,10 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: #6e6b6f;
+  color: #b9b7b8;
+  background-color: rgb(71 85 105);
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 2px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
@@ -117,7 +118,7 @@
   font-family: 'Meddon', cursive;
 }
 #vlogoNav {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   color: #e66c64;
   font-family: 'Meddon', cursive;
 }
@@ -133,11 +134,18 @@
   font-size: 2.5rem
 }
 
+#navItems {
+  color: #999ca2;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
 .job {
-  font-family: 'Edu SA Beginner', cursive;
-  color: #dad8d7;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: #5e6671;
   font-size: 2rem;
-  margin-top: -20px;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -147,15 +155,21 @@
   }
   .vlogo {
     display: block;
+    font-size: 60px;
     text-align: center;
-    margin-bottom: -50px;
+    margin-top: 50px;
+    margin-bottom: -25px;
   }
   .name {
     font-size: 1.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .job {
     font-size: 1.5rem;
+  }
+
+  #navItems {
+    font-size: 1rem;
   }
 }
 

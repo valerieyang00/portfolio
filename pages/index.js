@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <style>
         @import url({"https://fonts.googleapis.com/css2?family=Meddon&display=swap"});
-        @import url({"https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap"});
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap');
         </style>
 
       </Head>
