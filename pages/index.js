@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <div className= "bg-gradient-to-r from-orange-50 to-orange-200">
+
     <div className={styles.container}>
       <Head>
         <title>Valerie Yang | Portfolio</title>
@@ -17,7 +19,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main} id="contact">
-        <h1 className={styles.name}><span className={styles.vlogo}>V</span>Valerie Yang</h1>
+        <h1 className={styles.name}><span id={styles.vlogo}>V</span>Valerie Yang</h1>
         <h1 className={styles.job}>
           Software Engineer
         </h1>
@@ -114,10 +116,6 @@ export default function Home() {
           Works
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -163,5 +161,8 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    </div>
+      
+
   )
 }
