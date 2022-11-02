@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="flex justify-between sticky top-0 z-50 bg-gradient-to-r from-slate-700 to-slate-900">
             <div className="mt-5 ml-10">
-            <Link href='#homepage'><p id={styles.vlogoNav}>V</p></Link>
+            <Link href='#homepage'><button className="bg-transparent"id={styles.vlogoNav}>V</button></Link>
             </div>
             <div id={styles.navItems}>
             <Link href='#about'>About</Link>{' | '}
