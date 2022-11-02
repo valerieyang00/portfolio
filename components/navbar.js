@@ -10,9 +10,9 @@ export default function Navbar() {
             <Link href='#homepage'><button className="bg-transparent"id={styles.vlogoNav}>V</button></Link>
             </div>
             <div id={styles.navItems}>
+            <Link href='#homepage'>Main</Link>{' | '}
             <Link href='#about'>About</Link>{' | '}
-            <Link href='#works'>Works</Link>{' | '}
-            <Link href='#contact'>Contact</Link>{'  '}
+            <Link href='#works'>Works</Link>{'  '}
             </div>
         </nav>
     )
