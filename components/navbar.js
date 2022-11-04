@@ -12,7 +12,7 @@ export default function Navbar() {
             <div id={styles.navItems}>
             <Link href='#homepage'>Main</Link>{' | '}
             <Link href='#about'>About</Link>{' | '}
-            <Link href='#works'>Works</Link>{'  '}
+            <Link href='#works'>Skills & Works</Link>{'  '}
             </div>
         </nav>
     )

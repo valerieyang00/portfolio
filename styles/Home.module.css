@@ -14,6 +14,12 @@
   align-items: center;
 }
 
+.carousel {
+  width:500px;
+  height:400px;
+  margin: 10px;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -118,11 +124,14 @@
   color: #e66c64;
   font-family: 'Meddon', cursive;
 }
+
 #vlogoNav {
   font-size: 2.7rem;
   color: #e66c64;
   font-family: 'Meddon', cursive;
 }
+
+
 
 .nameNav {
   font-family: 'Meddon', cursive;
@@ -172,6 +181,10 @@
 
   #navItems {
     font-size: 1rem;
+  }
+
+  .cardMobile {
+    display: block;
   }
 }
 

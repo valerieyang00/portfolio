@@ -62,18 +62,19 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <h1 className="mb-2 font-mono font-semibold text-3xl text-gray-400">
-            Skills</h1>
-            <Skills />
 
 
         </main>
 
         <main className={styles.main} id="works">
-          <h1 className="text-4xl font-mono font-semibold text-gray-400">
+          <h1 className=" mb-2 font-mono font-semibold text-4xl text-gray-400" style={{marginTop: "100px"}}>
+            Skills</h1>
+            <Skills />
+          <h1 className="mt-12 text-4xl font-mono font-semibold text-gray-400">
             Works
           </h1>
-          <div className="text-2xl font-semibold text-gray-400 text-center">I am learning everyday!</div>
+          <div className="mb-12 text-2xl font-semibold text-gray-400 text-center mb-10">Here are some of my projects. I am learning something new everyday!</div>
+
           <Projects />
 
         </main>
