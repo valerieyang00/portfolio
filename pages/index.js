@@ -75,21 +75,15 @@ export default function Home() {
           </h1>
           <div className="mb-12 text-2xl font-semibold text-gray-400 text-center mb-10">Here are some of my projects. I am learning something new everyday!</div>
 
+
           <Projects />
 
         </main>
 
         <footer className={styles.footer}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <span className={styles.logo}>
-              <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-            </span>
-          </a>
+            <div className="text-center mb-2" style={{color: "black"}}><p className="mb-2 text-xl">Contact: </p>
+            <Contact />
+            </div>
         </footer>
       </div>
     </div>
