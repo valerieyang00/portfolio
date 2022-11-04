@@ -183,8 +183,8 @@
     font-size: 1rem;
   }
 
-  .cardMobile {
-    display: block;
+  .projects {
+    width: 90vw;
   }
 }
 

@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <>
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 " style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects " style={{ width: "70vw", height: "auto" }}>
                     <figure className="carousel" >
                         <Carousel showThumbs={false} >
                             <div>
@@ -48,7 +48,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 " style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects" style={{ width: "70vw", height: "auto" }}>
                     <figure className="carousel" >
                         <Carousel showThumbs={false} >
                             <div>
@@ -100,7 +100,7 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 " style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects" style={{ width: "70vw", height: "auto" }}>
                     <figure className="carousel" >
                         <Carousel showThumbs={false} >
                             <div>
@@ -141,7 +141,7 @@ export default function Projects() {
 
             </div>
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 " style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects" style={{ width: "70vw", height: "auto" }}>
                     <figure className="carousel" >
                         <Carousel showThumbs={false} >
                             <div>
