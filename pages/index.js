@@ -36,6 +36,7 @@ export default function Home() {
         <main className={styles.main} id="about">
 
           <div className="py-16 bg-transparent">
+            
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                 <div className="md:5/12 lg:w-5/12">
@@ -53,7 +54,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="md:7/12 lg:w-6/12">
-                  <div className="text-4xl font-mono font-semibold text-gray-400 mb-10">About Me</div>
+                  <div className="text-4xl font-mono font-semibold text-gray-400 mb-10 mobileAbout">About Me</div>
                   <p className="mt-4 text-gray-600 text-xl"> My passion as a developer grows everyday as I continue on my life-long journey of learning. I would like to take part and contribute in building something that adds value to broad consumers or users. </p>
                   <p className="mt-6 text-gray-600 text-xl">In my 8 years of professional experience, I enjoyed solving problems and the growing technical aspects to my job as finance was being more and more modernized. I am a hard-working professional who has attention to detail, capability to work with different teams and people, and the mindset to develop scalable processes. I hope to bring my experiences, problem-solving skills, and positive energy to the beginning of my new career.</p>
 

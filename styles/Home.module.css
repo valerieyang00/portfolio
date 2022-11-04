@@ -186,6 +186,9 @@
   .projects {
     width: 90vw;
   }
+  .mobileAbout {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
