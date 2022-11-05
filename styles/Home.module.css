@@ -170,7 +170,7 @@
   justify-content: center;  
 }
 
-@media (max-width: 2300px) {
+@media (max-width: 2200px) {
   .workContainer {
     display: block;
   }
