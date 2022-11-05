@@ -10,8 +10,8 @@ export default function Projects() {
 
             <div className="flex justify-center" >
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-10 " id={styles.projects}>
-                    <figure className="carousel" >
-                        <Carousel  >
+                    <figure>
+                        <Carousel className={styles.carousel} >
                             <div>
                                 <img src="/dream1.png" alt="dream1" />
 
@@ -52,8 +52,8 @@ export default function Projects() {
 
             <div className="flex justify-center" >
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
-                    <figure className="carousel" >
-                        <Carousel  >
+                    <figure>
+                        <Carousel className={styles.carousel2}  >
                             <div>
                                 <img src="/weekend1.png" alt="weekend1" />
 
@@ -106,8 +106,8 @@ export default function Projects() {
 
             <div className="flex justify-center" >
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
-                    <figure className="carousel" >
-                        <Carousel  >
+                    <figure >
+                        <Carousel className={styles.carousel3}   >
                             <div>
                                 <img src="/pet1.png" alt="pet1" />
 
@@ -147,8 +147,8 @@ export default function Projects() {
             </div>
             <div className="flex justify-center" >
                 <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
-                    <figure className="carousel" >
-                        <Carousel  >
+                    <figure >
+                        <Carousel className={styles.carousel4}  >
                             <div>
                                 <img src="/game1.png" alt="game1" />
 
