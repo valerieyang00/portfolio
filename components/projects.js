@@ -1,14 +1,17 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import styles from '../styles/Home.module.css'
 
 export default function Projects() {
 
     return (
         <>
+        <div className={styles.workContainer}>
+
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects " style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 " id={styles.projects}>
                     <figure className="carousel" >
-                        <Carousel showThumbs={false} >
+                        <Carousel  >
                             <div>
                                 <img src="/dream1.png" alt="dream1" />
 
@@ -48,9 +51,9 @@ export default function Projects() {
             </div>
 
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects" style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
                     <figure className="carousel" >
-                        <Carousel showThumbs={false} >
+                        <Carousel  >
                             <div>
                                 <img src="/weekend1.png" alt="weekend1" />
 
@@ -72,15 +75,15 @@ export default function Projects() {
 
                             </div>
                             <div>
-                                <img src="/weekend5.png" alt="image4" />
+                                <img src="/weekend5.png" alt="image5" />
 
 
                             </div>
-                            <div>
+                            {/* <div>
                                 <img src="/weekend6.png" alt="image4" />
 
 
-                            </div>
+                            </div> */}
                         </Carousel>
                     </figure>
                     <div className="card-body">
@@ -98,11 +101,13 @@ export default function Projects() {
                 </div>
 
             </div>
+        </div>
+        <div className={styles.workContainer}>
 
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects" style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
                     <figure className="carousel" >
-                        <Carousel showThumbs={false} >
+                        <Carousel  >
                             <div>
                                 <img src="/pet1.png" alt="pet1" />
 
@@ -141,9 +146,9 @@ export default function Projects() {
 
             </div>
             <div className="flex justify-center" >
-                <div className="card lg:card-side bg-base-100 shadow-xl mb-10 projects" style={{ width: "70vw", height: "auto" }}>
+                <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
                     <figure className="carousel" >
-                        <Carousel showThumbs={false} >
+                        <Carousel  >
                             <div>
                                 <img src="/game1.png" alt="game1" />
 
@@ -177,6 +182,8 @@ export default function Projects() {
                 </div>
 
             </div>
+        </div>
+
 
         </>
 

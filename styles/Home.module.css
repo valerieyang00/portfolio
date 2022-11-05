@@ -160,6 +160,28 @@
   margin-bottom: 40px;
 }
 
+#projects {
+  width: 40vw;
+  margin-right: 4rem;
+}
+
+.workContainer {
+  display: flex;
+  justify-content: center;  
+}
+
+@media (max-width: 2300px) {
+  .workContainer {
+    display: block;
+  }
+
+  #projects {
+    width: 75vw;
+    margin-right: 0;
+  }
+
+
+}
 
 
 @media (max-width: 600px) {
@@ -183,10 +205,14 @@
     font-size: 1rem;
   }
 
-  .projects {
+  .workContainer {
+    display: block;
+  }
+
+  #projects {
     width: 90vw;
   }
-  .mobileAbout {
+  #mobileAbout {
     display: none;
   }
 }
