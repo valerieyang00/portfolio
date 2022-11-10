@@ -37,6 +37,7 @@ export default function Projects() {
                     <div className="card-body">
                         <h2 className="card-title mb-5">DreamPlanner</h2>
                         <p>Fully-responsive web application developed using Django, React, and PostgreSQL <br></br><br></br>Vacation Planning app with savings estimator tool and dashboards dynamically updated for expense vs budget tracking</p>
+                        <p>LOGIN information to explore Live site: <br></br>Email: test@g.com <br></br>Password: tester</p>
                         <div className="card-footer">
                             <p>Tech Used: Django, React, PostgreSQL, TailwindCSS</p>
                             <p>Group Project</p>
@@ -89,6 +90,7 @@ export default function Projects() {
                     <div className="card-body">
                         <h2 className="card-title mb-5">ThisWeekend</h2>
                         <p className="mb-3">Full-stack application developed using Node, Express, PostgreSQL.<br></br><br></br>Created an Activity themed application incorporating a web API where users are able to view/save acvities by category, log progress, write reviews, and post & comment on public feeds.</p>
+                        <p>LOGIN information to explore Live site: <br></br>Email: test@g.com <br></br>Password: tester</p>
                         <div className="card-footer">
                             <p>Tech Used: Node, Express, PostgreSQL, Sequelize, EJS templates, BootstrapCSS</p>
                             <p>Solo Project</p>
@@ -133,6 +135,7 @@ export default function Projects() {
                     <div className="card-body">
                         <h2 className="card-title mb-5">PetSpace</h2>
                         <p>Full-Stack application built using MERN <br></br><br></br>Created a photo-upload and social networking application with instagram-like features: follow/unfollow, like/unlike, comments</p>
+                        <p>LOGIN information to explore Live site: <br></br>Email: test@g.com <br></br>Password: tester</p>
                         <div className="card-footer">
                             <p>Tech Used: MongoDB, Express, React, Node, Cloudinary, BootstrapCSS</p>
                             <p>Group Project</p>
