@@ -64,10 +64,20 @@ export default function Projects() {
                     <div className="card lg:card-side bg-base-100 shadow-xl mb-10" id={styles.projects} >
                         <figure>
                         <Carousel className={styles.carousel2}  >
+
+                        <div>
+                                {hasWindow && <ReactPlayer url="https://vimeo.com/775616029/87a299b86d"
+                                    volume="1"
+                                    muted
+                                    width="100%"
+                                    playing={true}
+                                    alt="ThisWeekendVideo"
+                                    light="/weekend1.png"
+
+                                />}
+                            </div>
                             <div>
-                                <img src="/weekend1.png" alt="weekend1" />
-
-
+                                <img src="/weekend1.png" alt="image1" />
                             </div>
                             <div>
                                 <img src="/weekend2.png" alt="image2" />
@@ -166,8 +176,9 @@ export default function Projects() {
                                 {hasWindow && <ReactPlayer url="https://vimeo.com/775603476/bb84ecda7f"
                                     volume="1"
                                     width="100%"
-                                    playing={false}
+                                    playing={true}
                                     alt="game1video"
+                                    light="/game1.png"
 
                                 />}
 
