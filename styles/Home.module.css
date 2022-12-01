@@ -15,17 +15,15 @@
 }
 
 .carousel {
-  width: 700px;
+  width: 900px;
+  height: 500px;
+  margin: auto;
 }
-.carousel2 {
-  width: 1100px;
+
+.fill {
+  object-fit: contain;
 }
-.carousel3 {
-  width: 740px;
-}
-.carousel4 {
-  width: 520px;
-}
+
 
 .footer {
   display: flex;
@@ -180,17 +178,12 @@
 @media (max-width: 2200px) {
   
   .carousel {
-    width: 710px;
+    width: auto;
+    height: auto;
+    margin: auto;
+
   }
-  .carousel2 {
-    width: 1030px;
-  }
-  .carousel3 {
-    width: 720px;
-  }
-  .carousel4 {
-    width: 715px;
-  }
+
 
 
 }
@@ -206,18 +199,12 @@
   }
 
   .carousel {
-    width: 710px;
-  }
-  .carousel2 {
-    width: 1070px;
-  }
-  .carousel3 {
-    width: 720px;
-  }
-  .carousel4 {
-    width: 525px;
-  }
+    width: 600px;
+    height: 400px;
+    margin: auto;
 
+  }
+  
 
 }
 
