@@ -40,7 +40,7 @@ export default function Project2() {
 
                 <div className="flex flex-row mt-3">
                     <button className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">
-                        <a href="http://petspace-vy.netlify.app" target="_blank" rel="noopener noreferrer"><h1 className="text-white text-center font-semibold">
+                        <a href="http://petspace-vy.netlify.app" target="_blank" ><h1 className="text-white text-center font-semibold">
                             LIVE
                         </h1></a>
                     </button>

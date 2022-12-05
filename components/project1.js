@@ -40,13 +40,13 @@ export default function Project1() {
 
         <div className="flex flex-row mt-3">
           <button className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">
-            <a href="https://valerieyang00.github.io/Project-1/" target="_blank" rel="noopener noreferrer"><h1 className="text-white text-center font-semibold">
+            <a href="https://valerieyang00.github.io/Project-1/" target="_blank" ><h1 className="text-white text-center font-semibold">
               LIVE
             </h1></a>
           </button>
           <button
             className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300"
-          ><a href="https://github.com/valerieyang00/Project-1" target="_blank" rel="noopener noreferrer"><h1 className="text-white text-center font-semibold">
+          ><a href="https://github.com/valerieyang00/Project-1" target="_blank" ><h1 className="text-white text-center font-semibold">
             GITHUB
           </h1></a>
 
