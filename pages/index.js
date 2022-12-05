@@ -74,7 +74,8 @@ export default function Home() {
           <h1 className="mt-12 text-4xl font-mono font-semibold text-gray-400">
             Works
           </h1>
-          <div className="mb-12 text-2xl font-semibold text-gray-400 text-center mb-10">Here are some of my projects. I am learning something new everyday!</div>
+          <div className="mt-5 text-2xl font-semibold text-gray-600 text-center ">Here are some of my projects. I am learning something new everyday!</div>
+          <div className="mb-12 text-xl font-semibold text-gray-500 text-center mb-10">💡 Play Video or use Login (ID: test@g.com, PW: tester) to explore Live sites 💡</div>
 
 
           <Projects />

@@ -16,7 +16,6 @@ export default function Project2() {
       <div className=" h-full w-full  shadow-md rounded-2xl basis-3/3 relative">
         <div className="h-full w-full relative border-2 border-white">
           {hasWindow && <ReactPlayer url="https://vimeo.com/775616029/87a299b86d" className={styles.contain}
-            volume="1"
             muted
             playing={true}
             alt="ThisWeekendVideo"
@@ -36,7 +35,7 @@ export default function Project2() {
         </h1>
         <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - Node, Express, PostgreSQL, Sequelize, EJS templates, BootstrapCSS<br></br></p>
         <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Developed a full-stack application incorporating a web API where users are able to browse and save acvities by category, log progress, write reviews, and post & comment on public feeds.</p>
-        <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">LOGIN information to explore Live site: <br></br>Email: test@g.com <br></br>Password: tester</p>
+
 
         <div className="flex flex-row mt-3">
           <button className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">

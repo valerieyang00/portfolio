@@ -16,8 +16,7 @@ export default function Project2() {
       <div className=" h-full w-full  shadow-md rounded-2xl basis-3/3 relative">
         <div className="h-full w-full relative border-2 border-white">
           {hasWindow && <ReactPlayer url="https://vimeo.com/775603476/bb84ecda7f" className={styles.fill}
-            volume="1"
-            muted
+            volume= {1}
             playing={true}
             alt="GameVideo"
             light="/game1.png"
