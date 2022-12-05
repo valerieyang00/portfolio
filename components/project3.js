@@ -42,13 +42,13 @@ export default function Project2() {
 
                 <div className="flex flex-row mt-3">
                     <button className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">
-                        <a href="http://petspace-vy.netlify.app" target="_blank" ><h1 className="text-white text-center font-semibold">
+                        <a href="http://petspace-vy.netlify.app" target="_blank" rel="noreferrer" ><h1 className="text-white text-center font-semibold">
                             LIVE
                         </h1></a>
                     </button>
                     <button
                         className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300"
-                    ><a href="https://github.com/valerieyang00/petspace-p3-client" target="_blank"><h1 className="text-white text-center font-semibold">
+                    ><a href="https://github.com/valerieyang00/petspace-p3-client" target="_blank" rel="noreferrer"><h1 className="text-white text-center font-semibold">
                         GITHUB
                     </h1></a>
 
