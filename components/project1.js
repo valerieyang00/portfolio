@@ -1,5 +1,6 @@
 import ReactPlayer from 'react-player';
 import { useState, useEffect } from 'react'
+import styles from '../styles/Home.module.css'
 
 export default function Project1() {
   const [hasWindow, setHasWindow] = useState(false);
