@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 
-export default function Project2() {
+export default function Project1() {
   const [hasWindow, setHasWindow] = useState(false);
   useEffect(() => {
     if (typeof window !== "undefined") {
