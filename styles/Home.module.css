@@ -14,6 +14,7 @@
   align-items: center;
 }
 
+
 /* .carousel {
   width: 100%;
   height: 100%;
@@ -34,8 +35,8 @@
   width: 100%;
   object-fit: contain;
   overflow: hidden;
-}
 
+}
 
 .footer {
   display: flex;
@@ -190,12 +191,17 @@
 @media (max-width: 2200px) {
   
   .carousel {
-    width: auto;
-    height: auto;
-    margin: auto;
-
+    width: 710px;
   }
-
+  .carousel2 {
+    width: 1030px;
+  }
+  .carousel3 {
+    width: 720px;
+  }
+  .carousel4 {
+    width: 715px;
+  }
 
 
 }
@@ -211,19 +217,19 @@
   }
 
   .carousel {
-    width: 600px;
-    height: 400px;
-    margin: auto;
-
+    width: 710px;
   }
-  
+  .carousel2 {
+    width: 1070px;
+  }
+  .carousel3 {
+    width: 720px;
+  }
+  .carousel4 {
+    width: 525px;
+  }
 
-}
 
-.react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 
@@ -273,3 +279,5 @@
   }
 
 }
+
+
