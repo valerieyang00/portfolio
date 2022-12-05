@@ -3,7 +3,7 @@ export default function Skills() {
     return (
         <div className="mb-12">
 
-            <p className="flex justify-center space-x-2 text-gray-500 text-xl mb-4">HTML, JavaScript, CSS, Python, Node.js, Express, React, PostgreSQL, MongoDB, Django, Git, Github  </p>
+            <p className="flex justify-center font-semibold space-x-2 text-gray-600 text-xl mb-4">HTML, JavaScript, CSS, Python, Node.js, Express, React, PostgreSQL, MongoDB, Django, Git, Github  </p>
             <div className="flex justify-center space-x-2 text-gray-700">
 
                 <div className="flex items-center justify-center">

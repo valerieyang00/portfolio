@@ -14,17 +14,27 @@
   align-items: center;
 }
 
-.carousel {
-  width: 700px;
+/* .carousel {
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  top:0;
+  left:0;
 }
-.carousel2 {
-  width: 1100px;
+
+.carousel-style {
+  height: 100%;
+} */
+
+.fill {
+  object-fit: fill;
 }
-.carousel3 {
-  width: 740px;
-}
-.carousel4 {
-  width: 520px;
+
+.contain {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+
 }
 
 .footer {
