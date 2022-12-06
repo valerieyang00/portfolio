@@ -147,10 +147,12 @@
   font-size: 100px;
   color: #e66c64;
   font-family: 'Meddon', cursive;
+  margin-bottom: 30px;
 }
 
 #vlogoNav {
-  font-size: 2.7rem;
+  width: 100px;
+  height: 50px;
   color: #e66c64;
   font-family: 'Meddon', cursive;
 }

@@ -42,7 +42,7 @@ export default function Project5() {
                 {/* <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> FrontEnd - Typescript, React, MaterialUI<br></br></p> */}
                 <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Currently working with a team to build a fully-responsive consumer app, focusing on Front-end. <br></br></p>
                 
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white"> Gaining experience to use Typescript with React, MaterialUI components, write OpenAPI Specification, unit-tests with React-testing-library/Jest, and perform code reviews with my team. </p>
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white"> Learning new skills and gaining experience in: <br></br> - Typescript with React <br></br> - Write and use OpenAPI Specification <br></br> - Unit testing with React-testing-library & Jest<br></br>- MaterialUI components <br></br> - Perform code reviews with my team </p>
 
 
                 {/* <div className="flex flex-row mt-3">

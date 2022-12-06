@@ -10,7 +10,7 @@ import 'tailwindcss/tailwind.css'
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-r from-orange-50 to-orange-200">
+    <div className="bg-white">
 
       <div className={styles.container}>
         <Head>
@@ -25,10 +25,7 @@ export default function Home() {
         </Head>
 
         <main className={styles.main} id="homepage">
-          <h1 className={styles.name}><p id={styles.vlogo} style={{ fontSize: "150px", textAlign: "center" }}>V</p>Valerie Yang</h1>
-          <h1 className={styles.job}>
-            Software Engineer
-          </h1>
+          <img id={styles.vlogo} src="/logofull.png" alt="fullLogo" />
           <Contact />
 
 
@@ -47,14 +44,14 @@ export default function Home() {
                     height={500}
                   />
                   <div className="md:12/12 lg:w-10/12 mt-5">
-                    <h1 className="font-semibold text-2xl mb-2 text-gray-500 text-center">
+                    <h1 className="font-semibold text-3xl mb-2 text-gray-600 text-center">
                       Valerie Yang </h1>
 
                     <Contact />
                   </div>
                 </div>
                 <div className="md:7/12 lg:w-6/12">
-                  <div className="text-4xl font-mono font-semibold text-gray-400 mb-10" id={styles.mobileAbout}>About Me</div>
+                  <div className="text-4xl font-mono font-semibold text-[rgb(220,153,148)] mb-10" id={styles.mobileAbout}>About Me</div>
                   <p className="mt-4 text-gray-600 text-xl"> My passion as a developer grows everyday as I continue on my life-long journey of learning. I would like to take part and contribute in building something that adds value to broad consumers or users. </p>
                   <p className="mt-6 text-gray-600 text-xl">In my previous experience, I enjoyed solving problems and the growing technical aspects to my job as a finance professional. I have attention to detail, capability to work with different teams and people, and the mindset to develop scalable processes. I hope to bring my experiences, problem-solving skills, and positive energy to the beginning of my new career.</p>
 
@@ -68,10 +65,10 @@ export default function Home() {
         </main>
 
         <main className={styles.main} id="works">
-          <h1 className=" mb-2 font-mono font-semibold text-4xl text-gray-400" style={{marginTop: "100px"}}>
+          <h1 className=" mb-2 font-mono font-semibold text-4xl text-[rgb(220,153,148)]" style={{marginTop: "100px"}}>
             Skills</h1>
             <Skills />
-          <h1 className="mt-12 text-4xl font-mono font-semibold text-gray-400">
+          <h1 className="mt-12 text-4xl font-mono font-semibold text-[rgb(220,153,148)]">
             Works
           </h1>
           <div className="mt-5 text-2xl font-semibold text-gray-600 text-center ">Here are some of my projects. I am learning something new everyday!</div>
@@ -83,7 +80,7 @@ export default function Home() {
         </main>
 
         <footer className={styles.footer}>
-            <div className="text-center mb-2" style={{color: "black"}}><p className="mb-2 text-xl">Contact: </p>
+            <div className="text-center font-semibold mb-2 text-[rgb(220,153,148)]"><p className="mb-2 text-3xl">Contact: </p>
             <Contact />
             </div>
         </footer>
