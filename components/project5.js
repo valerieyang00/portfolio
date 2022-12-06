@@ -17,8 +17,10 @@ export default function Project5() {
 
         <div className="md:w-[85vw] md:h-[30.5rem] w-[20.5rem] h-[50rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
             <div className=" h-full w-full  shadow-md rounded-2xl basis-3/3 relative">
-                <div className="h-full w-full relative border-2 border-white text-center">
-                    <img src='/comingsoon.png' alt='coming soon' />
+                <div className="h-full w-full relative border-2 border-white text-center flex justify-center items-center">
+                    <div className={styles.img}>
+                    <img src='/comingsoon.png' alt='coming soon'/>
+                    </div>
                     {/* {hasWindow && <ReactPlayer url="https://vimeo.com/777934212/285142fc69" className={styles.fill}
                         muted
                         playing={true}
