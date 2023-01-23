@@ -1,6 +1,6 @@
+import { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
-import { useState, useEffect } from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 
 
 export default function Project2() {
@@ -12,7 +12,7 @@ export default function Project2() {
   }, []);
 
   return (
-    <div className="md:w-[85vw] md:h-[33rem] w-[20.5rem] h-[50rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
+    <div className="md:w-[85vw] md:h-[32rem] w-[21rem] h-[55rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
       <div className=" h-full w-full  shadow-md rounded-2xl basis-3/3 relative">
         <div className="h-full w-full relative border-2 border-white">
           {hasWindow && <ReactPlayer url="https://vimeo.com/775616029/87a299b86d" className={styles.contain}
@@ -34,7 +34,7 @@ export default function Project2() {
           This Weekend <span className="pt-3 font-bold pl-1 text-lg text-white">Solo Project</span>
         </h1>
         <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - Node, Express, PostgreSQL, Sequelize, EJS templates, BootstrapCSS<br></br></p>
-        <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Developed a full-stack application incorporating a web API where users are able to browse and save acvities by category, log progress, write reviews, and post & comment on public feeds.</p>
+        <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Created a full-stack application that integrates a web API to provide users with activities by category. <br></br> The application features RESTful routing, allowing users to perform CRUD operations on their own profile, saved activities list, logs, reviews, and posts. This project allowed me to gain experience in building a full-stack application and using technologies such as Node, Express, PostgreSQL, and Bootstrap CSS to create a functional and user-friendly application.</p>
 
 
         <div className="flex flex-row mt-3">

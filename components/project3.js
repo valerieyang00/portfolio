@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player';
 
-import { useState, useEffect } from 'react'
-import styles from '../styles/Home.module.css'
+import { useEffect, useState } from 'react';
+import styles from '../styles/Home.module.css';
 
 
 export default function Project3() {
@@ -14,7 +14,7 @@ export default function Project3() {
 
     return (
 
-        <div className="md:w-[85vw] md:h-[30.5rem] w-[20.5rem] h-[50rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
+        <div className="md:w-[85vw] md:h-[32rem] w-[21rem] h-[55rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
             <div className=" h-full w-full  shadow-md rounded-2xl basis-3/3 relative">
                 <div className="h-full w-full relative border-2 border-white">
                     {hasWindow && <ReactPlayer url="https://vimeo.com/777127493/20f7d75424" className={styles.fill}
@@ -36,8 +36,9 @@ export default function Project3() {
                     PetSpace <span className="pt-3 font-bold pl-1 text-lg text-white">Group Project</span>
                 </h1>
                 <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - MongoDB, Express, React, Node, Cloudinary, BootstrapCSS<br></br></p>
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Full-Stack application built using MERN stack.</p>
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Created a photo-upload and social networking application with instagram-like features: follow/unfollow, like/unlike, comments</p>
+  
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Created a social-networking application using the MERN stack. <br></br>
+                We built a variety of features that allow users to connect and engage with each other, including the ability to like and comment on posts. One of the key features we built was the ability for users to upload photos, which we accomplished by integrating Cloudinary into our application. Our team also gained invaluable experience in working together as developers, using Git for version control and project management tools to stay organized and on track.</p>
 
 
                 <div className="flex flex-row mt-3">

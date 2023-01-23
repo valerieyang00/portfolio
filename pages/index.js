@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Contact from '../components/contact'
-import Skills from '../components/skills'
-import Projects from '../components/projects'
 import 'tailwindcss/tailwind.css'
+import Contact from '../components/contact'
+import Projects from '../components/projects'
+import Skills from '../components/skills'
+import styles from '../styles/Home.module.css'
 
 
 
@@ -52,8 +52,8 @@ export default function Home() {
                 </div>
                 <div className="md:7/12 lg:w-6/12">
                   <div className="text-4xl font-mono font-semibold text-[rgb(220,153,148)] mb-10" id={styles.mobileAbout}>About Me</div>
-                  <p className="mt-4 text-gray-600 text-xl"> My passion as a developer grows everyday as I continue on my life-long journey of learning. I would like to take part and contribute in building something that adds value to broad consumers or users. </p>
-                  <p className="mt-6 text-gray-600 text-xl">In my previous experience, I enjoyed solving problems and the growing technical aspects to my job as a finance professional. I have attention to detail, capability to work with different teams and people, and the mindset to develop scalable processes. I hope to bring my experiences, problem-solving skills, and positive energy to the beginning of my new career.</p>
+                  <p className="mt-4 text-gray-600 text-xl"> As a developer, my passion continues to grow every day as I embark on my lifelong journey of learning. I am eager to take part in and contribute to building something that adds value to broad consumers or users. </p>
+                  <p className="mt-6 text-gray-600 text-xl">In my previous experience as a finance professional, I relished the opportunity to solve problems and develop technical aspects of my job. I possess an attention to detail, the ability to work with different teams and people, and a mindset geared towards developing scalable processes. I hope to bring my experiences, problem-solving skills, and positive energy to the start of my new career as a developer.</p>
 
                   <p className="mt-4 text-gray-600 text-xl"> Besides work, I am a cat mom who loves to do cat things with cats 😸</p>
                 </div>
