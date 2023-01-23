@@ -1,8 +1,7 @@
-import ReactPlayer from 'react-player';
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react';
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
 
 
 export default function Project5() {
@@ -21,45 +20,23 @@ export default function Project5() {
                     <div className={styles.img}>
                     <img src='/comingsoon.png' alt='coming soon'/>
                     </div>
-                    {/* {hasWindow && <ReactPlayer url="https://vimeo.com/777934212/285142fc69" className={styles.fill}
-                        muted
-                        playing={true}
-                        alt="DreamVideo"
-                        light="/dream1.png"
-                        width="100%"
-                        height="100%"
-
-                    />} */}
 
                 </div>
             </div>
 
             <div className=" h-full w-full mr-2 rounded-2xl ">
-                {/* <p className="m-2 font-bold pl-1 text-lg text-[#4285F4]">Play Video 👉 </p> */}
                 <h1 className="m-2 text-4xl font-bold text-[#e66c64]">
                     Flavorite <span className="pt-3 font-bold pl-1 text-lg text-white ">Group Project</span>
                 </h1>
-                {/* <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> FrontEnd - Typescript, React, MaterialUI<br></br></p> */}
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Currently working with a team to build a fully-responsive consumer app, focusing on Front-end. <br></br></p>
+
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">I am currently working with a team on an in-progress project called Flavorite - a consumer app that utilizes a network of food enthusiasts to provide reliable food recommendations. As the Front-end developer, I am focusing on building a fully-responsive and user-friendly experience. <br></br></p>
                 
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white"> Learning new skills and gaining experience in: <br></br> - Typescript with React <br></br> - Write and use OpenAPI Specification <br></br> - Unit testing with React-testing-library & Jest<br></br>- MaterialUI components <br></br> - Perform code reviews with my team </p>
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white"> This project is an opportunity for me to learn new skills and gain experience in: <br></br> - Developing with Typescript and React <br></br> - Designing and using OpenAPI Specification for API endpoints <br></br> - Implementing unit tests using React-testing-library and Jest<br></br>- Incorporating MaterialUI components for styling <br></br> - Collaborating with my team for code reviews and contributions <br></br> </p>
 
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">  I am excited to share this project and look forward to updating with the final product. <br></br> #Flavorite #React #MaterialUI #OpenAPI #frontenddevelopment</p>
 
-                {/* <div className="flex flex-row mt-3">
-                    <button className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300">
-                        <a href="https://dreamplanner-vy.netlify.app/" target="_blank" rel="noreferrer"><h1 className="text-white text-center font-semibold">
-                            LIVE
-                        </h1></a>
-                    </button>
-                    <button
-                        className="md:m-2 m-auto mt-8 bg-[#e66c64] shadow-md shadow-[#e66c648a] p-2.5 rounded-xl flex flex-row justify-center items-center hover:bg-[#424bb6] ease-linear duration-300"
-                    ><a href="https://github.com/valerieyang00/dream-planner-client" target="_blank" rel="noreferrer"><h1 className="text-white text-center font-semibold">
-                        GITHUB
-                    </h1></a> */}
-
-                    {/* </button> */}
                 </div>
             </div>
-        // </div>
+
     );
 }
