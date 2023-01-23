@@ -11,7 +11,7 @@ export default function Project1() {
   }, []);
 
   return (
-    <div className="md:w-[85vw] md:h-[35rem] w-[21rem] h-[55rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
+    <div className="md:w-[85vw] md:h-[35rem] w-[21rem] h-[60rem] p-4 rounded-2xl bg-slate-800 shadow-slate-700 flex flex-col ease-linear duration-300 md:flex-row-reverse">
       <div className=" h-full w-full  shadow-md rounded-2xl basis-3/3 relative">
         <div className="h-full w-full relative border-2 border-white">
           {hasWindow && <ReactPlayer url="https://vimeo.com/775603476/bb84ecda7f" className={styles.fill}
