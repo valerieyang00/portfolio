@@ -34,11 +34,11 @@ export default function Project4() {
             <div className=" h-full w-full mr-2 rounded-2xl ">
                 <p className="m-2 font-bold pl-1 text-lg text-[#4285F4]">Play Video 👉 </p>
                 <h1 className="m-2 text-4xl font-bold text-[#e66c64]">
-                    Dream Planner <span className="pt-3 font-bold pl-1 text-lg text-white">Group Project</span>
+                    Dream Planner <span className="pt-3 font-bold pl-1 text-lg text-white">Full-Stack Developer (Team Project)</span>
                 </h1>
-                <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - Django, React, PostgreSQL, TailwindCSS<br></br></p>
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Developed a fully-responsive vacation budget planning and expense tracking application. <br></br>
-                Utilizing the power of Django and React, we have built a user-friendly platform that allows users to perform CRUD operations on vacation destinations, expenses, and their own profile. Additionally, users can view and track expense and budget dashboards for each of their saved destinations. Our team has honed our skills in technologies such as Django, React, PostgreSQL, Python, Javascript, Tailwind CSS, and React-Chartjs.</p>
+                <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> Django, React, PostgreSQL, Python, Javascript, TailwindCSS, React-Chartjs<br></br></p>
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">- Developed a fully-responsive vacation budget planning and expense tracking application. <br></br>
+                - Built a user-friendly platform using Django and React <br></br>Allows for CRUD operations on vacation destinations, expenses, and user profiles <br></br>- Includes functionality for viewing and tracking expense and budget dashboards for each destination</p>
 
 
                 <div className="flex flex-row mt-3">

@@ -33,12 +33,12 @@ export default function Project3() {
             <div className=" h-full w-full mr-2 rounded-2xl ">
                 <p className="m-2 font-bold pl-1 text-lg text-[#4285F4]">Play Video 👉 </p>
                 <h1 className="m-2 text-4xl font-bold text-[#e66c64]">
-                    PetSpace <span className="pt-3 font-bold pl-1 text-lg text-white">Group Project</span>
+                    PetSpace <span className="pt-3 font-bold pl-1 text-lg text-white">Full-Stack Developer (Team Project)</span>
                 </h1>
-                <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - MongoDB, Express, React, Node, Cloudinary, BootstrapCSS<br></br></p>
+                <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> MongoDB, Express, React, Node, Cloudinary, BootstrapCSS<br></br></p>
   
-                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Created a social-networking application using the MERN stack. <br></br>
-                We built a variety of features that allow users to connect and engage with each other, including the ability to like and comment on posts. One of the key features we built was the ability for users to upload photos, which we accomplished by integrating Cloudinary into our application. Our team also gained invaluable experience in working together as developers, using Git for version control and project management tools to stay organized and on track.</p>
+                <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">- Created a social-networking application using the MERN stack. <br></br>
+                - Built features allowing users to connect and engage with each other, including the ability to like and comment on posts <br></br>- Implemented a key feature allowing users to upload photos by integrating Cloudinary into the application <br></br>- Gained valuable experience working together as a team, using Git for version control and project management tools to stay organized and on track</p>
 
 
                 <div className="flex flex-row mt-3">

@@ -31,10 +31,11 @@ export default function Project2() {
       <div className=" h-full w-full mr-2 rounded-2xl ">
         <p className="m-2 font-bold pl-1 text-lg text-[#4285F4]">Play Video 👉 </p>
         <h1 className="m-2 text-4xl font-bold text-[#e66c64]">
-          This Weekend <span className="pt-3 font-bold pl-1 text-lg text-white">Solo Project</span>
+          This Weekend <span className="pt-3 font-bold pl-1 text-lg text-white">Full-Stack Developer (Solo Project)</span>
         </h1>
-        <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - Node, Express, PostgreSQL, Sequelize, EJS templates, BootstrapCSS<br></br></p>
-        <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Created a full-stack application that integrates a web API to provide users with activities by category. <br></br> The application features RESTful routing, allowing users to perform CRUD operations on their own profile, saved activities list, logs, reviews, and posts. This project allowed me to gain experience in building a full-stack application and using technologies such as Node, Express, PostgreSQL, and Bootstrap CSS to create a functional and user-friendly application.</p>
+        <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> Node, Express, PostgreSQL, Sequelize, EJS templates, BootstrapCSS<br></br></p>
+        <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">- Created a full-stack application that integrates a web API to provide users with activities by category <br></br>- Gained experience in building a functional and user-friendly full-stack application<br></br>- Utilized RESTful routing, allowing users to perform CRUD operations on their own profile, saved activities list, logs, reviews, and posts 
+        </p>
 
 
         <div className="flex flex-row mt-3">

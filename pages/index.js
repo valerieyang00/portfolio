@@ -19,7 +19,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.png" />
           <style>
             @import url({"https://fonts.googleapis.com/css2?family=Meddon&display=swap"});
-            @import url({"https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap"});
+            @import url({"https://fonts.googleapis.com/css2?family=Roboto&display=swap"});
           </style>
 
         </Head>

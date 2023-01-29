@@ -32,7 +32,7 @@ export default function Project1() {
         <h1 className="m-2 text-4xl font-bold text-[#e66c64]">
           Kitty Treasure Guard <span className="pt-3 font-bold pl-1 text-lg text-white">Solo Project</span>
         </h1>
-        <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> - Javascript, HTML-Canvas, CSS<br></br></p>
+        <p className="m-2 font-bold pl-1 text-lg text-white">Tech Used:<br></br> Javascript, HTML-Canvas, CSS<br></br></p>
         <p className="m-2 pt-3 font-bold pl-1 text-lg text-white">Built a web-game using JavaScript and the HTML5 canvas element. <br></br> It is a game where the player controls a character and must protect its treasures from ants. The player must use different abilities to stop the ants and score points. It includes traps to avoid and red blocks to stay away from for higher score potential. The game is available in easy/medium/hard mode with a maximum game time of 1 minute.</p>
 
 
