@@ -28,7 +28,7 @@ export default function Contact() {
                             </svg>
                         </a>
                     </button>
-                    <a href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1RBKRasQVlPEoS0x_3UicghIxTJ1QGPfM97QjZjN2xAM/export?format=pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1AfrbIeVAityOobDJj-h1w7im2a7ZX7dUiGPP7BX1Jsc/export?format=pdf" target="_blank" rel="noopener noreferrer">
                         <button className="scale-100 hover:scale-125 ease-in duration-100 bg-slate-700 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">resume
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
